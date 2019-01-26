@@ -1,0 +1,127 @@
+body,table,tr,td{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+ width: 100%;
+    height: 500px;
+}
+
+.header{
+    width: 100%;
+    overflow: hidden;
+    background: black;
+    padding: 0 60px;
+    box-sizing: border-box;
+}
+
+.header .logo{
+    width: 30%;
+    height: 70px;
+    float: left;
+}
+
+.header .logo img{
+    height: 50px;
+    margin-top: 10px;
+}
+
+.header .nav{
+    width: 30%;
+    height: 70px;
+    float: right;
+    text-align: right;
+    line-height: 70px;
+
+
+}
+
+
+.header .nav a{
+    margin-left: 40px;
+    color: white;
+    font-size: 1.2em;
+}
+
+.header .nav a:hover{
+    color: #c4c4c4;
+}
+
+/*end-----------header*/
+
+/*-----------begin-section----------*/
+
+.section{
+    width: 750px;
+    height: 330px;
+    margin: 30px auto;
+    border: solid 1px grey;
+
+}
+
+
+.section .top{
+    width: 100%;
+    height: 45px;
+    background: greenyellow;
+    color: blueviolet;
+    line-height: 45px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.seperator{
+    width: 80%;
+    height: 1px;
+    background: grey;
+    margin: 0 auto;
+}
+.section .main table{
+    width: 100%;
+    height: 285px;
+    border: none;
+}
+
+.section .main table .col-1{
+    width: 35%;
+    text-align: right;
+    font-size: 1.3em;
+    color: grey;
+    padding-right: 20px;
+}
+
+.section .main table .text{
+    width: 400px;
+    height: 30px;
+    border-radius: 3px;
+    border: solid 1px #c8c8c8;
+    outline: none;
+}
+.section .main table .btn-regist{
+    width: 200px;
+    height: 40px;
+    border: solid 1px #c8c8c8;
+    outline: none;
+    background: red;
+    color: white;
+}
+.section .main table div[id$='error']{
+    color: red;
+    font-size: 0.7em;
+    height: 1em;
+
+}
+
+
+.foot-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: black;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+
+}
